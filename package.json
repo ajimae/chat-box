@@ -1,0 +1,17 @@
+{
+  "name": "chat-box",
+  "version": "1.0.0",
+  "description": "a websocket group chat application",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start:dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
