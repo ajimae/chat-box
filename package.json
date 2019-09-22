@@ -6,12 +6,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start:dev": "nodemon src/index.js"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
+    "nodemon": "^1.19.2",
     "ws": "^7.1.2"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.2"
-  }
+  "devDependencies": {}
 }
